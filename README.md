@@ -3,7 +3,7 @@
 Repositório dedicado à resolução das listas de exercícios e atividades práticas da disciplina de programação em Python da Faculdade Impacta.
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Status-Finalizado-success?style=for-the-badge" alt="Status do Projeto">
+  <img src="https://img.shields.io/badge/Status-Em Andamento-loading?style=for-the-badge" alt="Status do Projeto">
   <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="Licença">
 </div>
 
