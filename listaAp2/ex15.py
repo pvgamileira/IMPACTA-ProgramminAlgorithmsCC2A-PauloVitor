@@ -3,7 +3,7 @@ def produtoMaisCaro(produtos):
     for produto in produtos:
         if produto["preco"] > Mais_Caro["preco"]:
             Mais_Caro = produto
-    return Mais_Caro["nome"]
+    return Mais_Caro["nome"], Mais_Caro["preco"]
 
 
 produtos = [
@@ -26,5 +26,5 @@ produtos = [
 ]
 
 
-resultado = produtoMaisCaro(produtos[0:4])
-print(f"O produto mais caro é: {resultado}")
+resultado = produtoMaisCaro(produtos)
+print(f"O produto mais caro é: {resultado[0]} - R$ {resultado[1]:.2f}")
